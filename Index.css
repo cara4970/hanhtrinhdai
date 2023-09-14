@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/wed//img/lan3.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.head{
+    background-color: black;
+    text-align: center;
+}
+.head li{
+    color: pink;
+    display: inline-block;
+    padding: 24px;
+    font-size: 20px;
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    width: 1720px;
+ 
+}
+.timkiem input[type="text"]{
+    height: 50px;
+    width: 960px;
+    border-radius: 10px;
+    margin-top: 30px;
+    position: relative;
+    margin-left: 30px;
+}
+.timkiem .kinh{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    position: absolute;
+    right: 510px;
+    top: 135px;
+    background-color: black;
+    cursor: pointer;
+}
+.đn{
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: black;
+    height: 37px;
+    border-radius: 10px;                    
+    text-align: center;
+    padding: 5px;
+    margin-left: 20px;
+    width: 130px;
+   color: pink;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.giohang{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+.menu{
+    background-color: black ;
+    text-align: center;
+    width: 1550px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* padding-left: 25px; */
+    background-image: url(IMG/background.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+.menu li{
+    display: inline-block;
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: pink;
+}
+.quangcao{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    width:  1009;
+}
+.tuanh{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.tuanh li{
+    display: inline-block;
+    padding: 10px;
+}
+.chacuacha{
+    width: 150px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 7%;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: pink;
+}
+.sale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 30px;
+    width: 1550px;
+    margin: auto;
+    border-radius: 10px;
+}
+.sale .sanpham{
+    margin-top: 50px;
+    flex-direction: column;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+    position: relative;
+}
+.sale .sticket{
+    position: absolute;
+    padding: 0;
+    display: flex;
+    top: -30px;
+    right: -20px;
+}
+
+.sale .banutmua button{
+    font-size: 15px;
+    color: pink;
+    background-color: black;
+    padding: 2px 5px;
+}
+.sale .lap{
+    margin-top: 50px;
+    flex-direction: column;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+    position: relative;
+}
+.ccc{
+    width: 150px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 7%;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: pink;
+}
+.sale .nutmua button{
+    font-size: 15px;
+    color: pink;
+    background-color: black;
+    padding: 2px 5px;
+}
+.ket{
+    min-width: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: black;
+    font-size: 13px;
+    padding: 0;
+    border-radius: 10px;
+    color: pink;
+}
+.ket .chinhsach
+{
+    display: flex;
+    padding: 10px 60px;
+    margin: 20px 0;
+}
+.chinhsach .itum{
+    display: flex;
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.itum-icon{
+    font-size: 60px;
+    margin-right: 10px;
+}
+.itum-text{
+    font-size: 16px;
+}
+.Dk{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px 60px;
+}
+.icon-text{
+    display: flex;
+    margin-right: 30px;
+}
+
+.icon-text img{
+    margin-right: 30px;
+}
+.text{
+    padding-top: 50px;
+    text-align: center;
+}
+.text h4{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.form{
+    display: flex;
+}
+.form .input{
+    background-color: white;
+    width: 300px;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+.form .input input{
+    width: 250px;
+    background: none;
+    border: none;
+}
+.form button{
+    background: pink;
+    border-radius: 15px;
+    font-size: 25px;
+    margin-left: -30px;
+    width: 50px;
+}
+
+.row{
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI';
+    font-size: 13px;
+    min-width: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+    background: PINK;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+.boxcenter1{
+    margin-top: 20px;
+    display: flex;
+}
+
+.boxfooter1{
+    padding-top: 20px;
+    width: 16.6666%;
+}
+
+.boxfooter2{
+    padding-top: 20px;
+    width: 16.6666%;
+}
+
+.boxfooter3{
+    padding-top: 20px;
+    width: 16.6666%;
+}
+
+.boxfooter4{
+    padding-top: 20px;
+    width: 16.6666%;
+    text-align: center;
+}
+
+.boxfooter5{
+    padding-top: 20px;
+    width: 16.6666%;    
+    text-align: center;
+}
+
+.boxfooter6{
+    padding-top: 20px;
+    width: 16.6666%;
+    text-align: center;
+}
+
+.textcenter{
+    text-align: center;
+}
+
+.colorc{
+    color: BLACKBLACK;
+}
+
+
+.mrb10{
+    margin-bottom: 10px;
+}
+
+.ftop{
+    padding-top: 20px;
+}
+h4{
+    font-size: 15px;
+}
+.hotline{
+    display: inline-block;
+    font: Bold 18px/18px -apple-system,BlinkMacSystemFont,'Segoe UI';
+    color:PINK;
+    background-color: BLACK;
+    padding: 6px 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.icon-list{
+    margin-top: 15px;
+    list-style:none ;
+}
+
+.bct{
+    margin-top: 15px;
+}
+
+.info1{
+    margin-top: 10px;
+}
+
+.BITC{
+    margin-top: 20px;
+}
+
